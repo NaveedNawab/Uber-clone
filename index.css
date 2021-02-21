@@ -102,3 +102,127 @@ body{
 .logout:hover{
     background-color: #E5E5E5;
 }
+
+                                /*   Hero section  */
+.herosection{   
+    width: 1519px;
+    height: 854px;
+    background-image: url(bg-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.tabsection{
+    display: flex;
+    position: absolute;       /*   almost spend 3 hours on this lol  */   
+    justify-content: center;
+    width: 1187px;
+    height: 121px;
+    background: white;
+    margin: 80px 0px 0px 200px;
+    padding: 10px 0px 10px 0px ;
+}
+.all{
+    padding: 25px 70px 25px 45px;
+    text-align: center;
+    font-size: 12px;
+}
+
+                                   /* Main Heading section */
+.headingsection{
+    position: absolute;
+    text-align: left;
+    width: 470px;
+    height: 340px;
+    background-color: white;
+    margin: 220px 0px 0px 200px;
+    padding-bottom: 50px;
+}
+.heading{
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -0.1rem;
+    padding-left: 30px;
+}
+.textline{
+    font-size: 14px;
+    margin-top: -30px;
+    padding-left: 30px;
+
+}
+                       /* Main heading button */
+.signuptodrive{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 0px;
+    padding: 12px 15px 12px 15px;  
+    margin-left: 30px;
+}
+.signuptodrive:hover{
+    border-radius: 0px;
+    background-color: #8B8989;
+}
+.buttondownline{
+    margin-left: 30px;
+    text-decoration: none;
+}
+.hrline{
+    width: 260px;
+    margin-right: 180px;
+}
+
+               /* Uber For Business Section */
+.uberforbusiness{
+    font-size: 36px;
+    font-weight: 500px;
+    line-height: 44px;
+    padding: 50px 00px 0px 200px;
+}
+.textuberforbusiness{
+    font-size: 18px;
+    padding: 0px 0px 0px 200px;
+}
+.businesssection{
+    display: flex;
+    position: absolute;
+    width: 1152px;
+    justify-content: center;
+    background-color: white;
+    margin-left: 200px;
+    text-align: left;
+}
+.foreachsection{
+    margin: 20px 20px 0px 20px;
+    font-size: 18px;
+    width: 360px;
+}
+.imgsize{
+    width: 357px;
+    height:250px;
+  }
+
+                       /* Safety section */
+.safetyheading{
+    margin-top: 530px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    font-size: 36px;
+}
+.safetysection{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-left: 200px;
+    width: 1152px;
+    margin-top: 40px;
+}
+.safetyforeach{
+    margin: 0px 20px 10px 20px;
+}
+.safetyimgsize{
+    width: 540px;
+    height: 400px; 
+}
