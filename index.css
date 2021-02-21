@@ -107,7 +107,7 @@ body{
 .herosection{   
     width: 1519px;
     height: 854px;
-    background-image: url(bg-image.jpg);
+    background-image: url(images/Herosection/bg-image.jpg);
     background-repeat: no-repeat;
     background-position: center top;
 }
@@ -216,6 +216,7 @@ body{
     justify-content: center;
     text-align: left;
     padding-left: 200px;
+    padding-bottom: 80px;
     width: 1152px;
     margin-top: 40px;
 }
@@ -225,4 +226,41 @@ body{
 .safetyimgsize{
     width: 540px;
     height: 400px; 
+}
+
+                        /* footer button Section */
+
+.footerbutton{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    margin: 200px 0px 0px 00px; 
+}
+.individualbutton{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.arrow{
+    margin-left: 240px; 
+}
+#link{
+    text-decoration: none;
+    color: black;
+}
+
+                         /* Footer */
+.footer{
+    background-color: black;
+    width: 1519px;
+    height: 300px;
+    margin-top: 60px;
+    color: white;
+}
+.footertext{
+    padding: 80px;
+    
 }
